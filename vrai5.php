@@ -1,11 +1,10 @@
 <?php
-$tableau = array("HTML","CSS","Javascript","PHP")
-function tri($tableau){
-  sort($tableau);
-  return $tableau;
+$test1="J'aime";
+$test2="les fraises";
+function Fusion($test1,$test2)
+{
+  return $test1 . $test2;
 }
-$triretour = array();
-$triretour = tri($tableau);
-foreach($triretour as $retour){
-}
+echo Fusion("J'aime","les fraises");
+echo Fusion($test1,$test2);
 ?>
