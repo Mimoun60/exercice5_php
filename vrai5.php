@@ -1,17 +1,11 @@
 <?php
-
-
-<?php
-
-
-function $prix_ttc ($prix_ht, $taux_tva)
-{
-
-  return ($prix_ht*(1+$taux_tva/100));
+$tableau = array("HTML","CSS","Javascript","PHP")
+function tri($tableau){
+  sort($tableau);
+  return $tableau;
 }
-print $prix_ttc (20,21);
-
-$resultat = aire(5,4);
-return $resultat;
+$triretour = array();
+$triretour = tri($tableau);
+foreach($triretour as $retour){
 }
 ?>
